@@ -9,7 +9,7 @@ url: "https://eliottvincent.github.io" # the base hostname & protocol for the si
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
 
-header:
+header: Sean OToole
   pages:
     - name: Home
       slug: /
