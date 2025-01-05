@@ -31,13 +31,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      # Optional: You might want to build the project first if you're using something like Webpack
+      # If you're already building your project locally, you can skip this step
+      - name: Build project (optional)
+        run: |
+          cd src
+          npm install
+          npm run build
+
+      # Setup Pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
+      # Upload artifact (pointing to the correct directory)
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '/src/dist/'
+          path: './src/dist'  # Make sure the path points to the output directory of your build
+
+      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
