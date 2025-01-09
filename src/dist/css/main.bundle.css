@@ -3602,9 +3602,9 @@ a.tag:hover {
     line-height: 1.125
 }
 
-.subtitle {
+.project_title {
     color: #363636;       /* Same as .title */
-    font-size: 1rem;      /* Smaller than .title */
+    font-size: 1.2rem;      /* Smaller than .title */
     font-weight: 600;     /* Same boldness */
     line-height: 1.125;   /* Same line height */
 }
