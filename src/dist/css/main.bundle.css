@@ -12139,3 +12139,8 @@ screen and (min-width:769px) {
 .carousel-cell {
     width: 100%
 }
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+}
