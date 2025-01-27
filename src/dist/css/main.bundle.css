@@ -12144,3 +12144,15 @@ screen and (min-width:769px) {
     display: flex;
     justify-content: space-between;
 }
+
+.icon-text {
+    text-align: center; /* Centers the content */
+    display: inline-block; /* Makes the <p> behave like an inline element for centering */
+  }
+  
+  .icon-text i {
+    display: block; /* Makes the icon a block element so it goes above the text */
+    margin-bottom: 10px; /* Adds some space between the icon and the text */
+    font-size: 40px; /* Optional: Adjusts the size of the icon */
+    color: green; /* Sets the color of the icon to green */
+  }
