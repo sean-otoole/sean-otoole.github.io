@@ -115,8 +115,8 @@
             </div>
           </div>
           <div class="content">
-            <p>Utlized data science and Bioinformatics to work with patient datasets alongside the Translational Data
-              Science group.</p>
+            <p>Working alongside the the Translatioanl Data Science group I am utlizing data science and Bioinformatics
+              to examine patient datasets and derive valuable biological insights.</p>
             <ul>
               <li>Building deep learning and classical machine learning models to predict the outcome of
                 chemoradiotherapy treatment in rectal cancer patients based on NGS and microarray data sets.</li>
@@ -187,7 +187,7 @@
           <div class="tile">
             <div class="tile is-parent">
               <article class="tile is-child notification">
-                <p class="subtitle">B-Cell Subtypes in Pre- and Postmenopausal Breast Cancer Patients</p>
+                <p class="subtitle">B Cell Subtypes in Pre- and Postmenopausal Breast Cancer Patients</p>
                 <figure class="image is-4by3">
                   <img class="modal-trigger" data-target="project-1-modal" src="img/BRCA_2024.png">
                 </figure>
@@ -522,17 +522,32 @@
         </div>
 
         <div class="content">
-
+          <br>
           <p>
-            <strong>Summary</strong>: Premenopausal women are more likely to experience more aggressive forms of breast
-            cancer, often associated with poorer clinical outcomes compared to postmenopausal women. One potential
-            explanation could be differences in the composition of B cell subtypes among the immune cells infiltrating
-            the tumor. In this project, I collaborated with physicians and analyzed patient datasets to investigate the
-            role of B cell subtypes in breast cancer samples from premenopausal and postmenopausal women.<br><br>
-            <a href="https://sean-otoole.github.io/BRCA_2024/" target="_blank">Full report located here</a> <br>
-            <a href="https://github.com/sean-otoole/BRCA_2024" target="_blank">Relevant github repository</a> <br><br>
+            <strong>Question:</strong>
+            Premenopausal women are at greater risk of experiencing more aggressive forms of breast cancer, often
+            associated with poorer clinical outcomes compared to postmenopausal women. One potential explanation is
+            differences in the composition of B cell subtypes among the immune cells infiltrating the tumor. In this
+            project, I collaborated with physicians and analyzed patient-derived datasets to investigate the role of B
+            cell subtypes in breast cancer samples from premenopausal and postmenopausal women.
           </p>
-
+          <p>
+            <strong>Method:</strong>
+            To determine whether B cell subtypes contributed to differences between these patient groups, I utilized
+            spatial transcriptomics datasets derived from breast cancer patients and integrated them with externally
+            sourced datasets. I identified cell type variations through automated cell type annotation and examined the
+            cosine similarity scores between the samples of interest and a comprehensive B cell dataset.
+          </p>
+          <p>
+            <strong>Outcome:</strong>
+            This work suggested that B cell subtypes vary meaningfully between these populations, providing insights
+            into why these patients exhibit differing tumor progressions. The conclusions I drew were further validated
+            using a separate bulk RNA sequencing dataset. The results of this analysis will be presented in a
+            forthcoming medical paper.
+          </p>
+          <a href="https://sean-otoole.github.io/BRCA_2024/" target="_blank">Full report located here</a> <br>
+          <a href="https://github.com/sean-otoole/BRCA_2024" target="_blank">Relevant github repository</a> <br><br>
+          </p>
           <div class="tags">
             <span class="tag">spatial transcriptomics</span>
             <span class="tag">python</span>
@@ -580,20 +595,33 @@
 
         <div class="content">
 
+          <br>
           <p>
-            <strong>Summary</strong>: A fundamental question in systems neuroscience is how information is ulimately
-            processed within the brain. One theory of neural processing is that the brain uses prediciton errors to
-            update an internal representations. One version of this theory suggests that there are both negative
-            (something expected is missing) and positive (something surprising happened) prediction neurons and that
-            these represent two distinct neuronal cell types. Here I tested that theory utilizing single-cell RNA
-            sequencing and optogenetics combined with virtual reality and FACS to look for biomarkers relatinv to
-            negative and positive prediciton error neurons. I ultimately establshed that negative and positive
-            prediction error neurons represent transcriptionally defined cell types. These experiments
-            and analyses enabled the development of cell-type specific AAVs for labeling these populations.<br><br>
-            <a href="https://www.cell.com/neuron/fulltext/S0896-6273(23)00626-8" target="_blank">Relevant publication
-              here</a> <br>
-            <a href="https://github.com/sean-otoole/scell_otoole_2023" target="_blank">Relevant github repository</a>
-            <br><br>
+            <strong>Question:</strong>
+            A fundamental question in systems neuroscience is how the brain processes information. One prominent theory
+            suggests that the brain uses prediction errors to update its own internal representation of the world. These
+            prediction
+            errors can be either negative (something expected is missing) or positive (something surprising happened),
+            potentially corresponding to two distinct neuronal cell types. Here I set out to ask these functional cell
+            types correspond to transcriptionally defined cortical subtypes.
+          </p>
+
+          <p>
+            <strong>Method:</strong>To test accomplish this, I utilized single-cell RNA sequencing, optogenetics,
+            virtual reality, and FACS to
+            identify biomarkers associated with negative and positive prediction error neurons. My findings demonstrated
+            that these neurons are transcriptionally defined cell types.
+          </p>
+
+          <p>
+            <strong>Outcome:</strong>This work enabled the development of cell-type-specific AAVs for labeling and
+            studying these distinct
+            neuronal populations, advancing our understanding of predictive coding in the brain.
+          </p>
+          <a href="https://www.cell.com/neuron/fulltext/S0896-6273(23)00626-8" target="_blank">Relevant publication
+            here</a> <br>
+          <a href="https://github.com/sean-otoole/scell_otoole_2023" target="_blank">Relevant github repository</a>
+          <br><br>
           </p>
 
           <div class="tags">
@@ -636,19 +664,33 @@
         </div>
 
         <div class="content">
-          <p>Here I ask whether AAVs which were designed to capture transcriptionally distinct populaitons have activity
-            patterns reminiscent of positive and negative prediciton error neurons. To do so, I analyzed and collected
-            neural activity imaging data from mice as they navigated a virtual reality environment. These cell type
-            specific AAVs were based on biomarkers I discovered through a series of single-cell RNA sequencing
-            experiments (see my Multimodal single-cell RNA-sequencing analysis project). Ultimately, I demonstrate that
-            transcriptionally distinct cell types exhibit differing activity patterns and presumably
-            serve different computational roles within the circuit, as defined by previously proposed computational
-            models.<br><br>
-            <a href="https://www.cell.com/neuron/fulltext/S0896-6273(23)00626-8" target="_blank">Relevant publication
-              here</a> <br>
-            <a href="https://github.com/sean-otoole/2p_neural_activity_otoole_2023" target="_blank">Relevant github
-              repository</a>
-            <br><br>
+          <br>
+          <p>
+            <strong>Question:</strong>
+            Numerous studies have identified neuronal subtypes using dimensionality reduction and clustering of
+            single-cell RNA sequencing datasets. However, the functional roles of these subtypes often remain unclear
+            unless we can label and observe them <i>in vivo</i>. In this project, I investigated whether specific
+            neuronal subtypes play distinct functional roles within the cortical circuit.
+          </p>
+          <p>
+            <strong>Method:</strong>
+            To assess the functional specificity of several layer 2/3 subtypes labeled with AAVs employing
+            biomarker-derived artificial promoters, I performed <i>in vivo</i> imaging of GCaMP-labeled neurons. Using
+            two-photon calcium imaging, I observed neuronal activity while mice with cranial window implants navigated a
+            virtual reality environment. I then analyzed the activity profiles of several thousand cortical neurons in
+            MATLAB, employing time series analysis, regression, bootstrapping, and various statistical methods.
+          </p>
+          <p>
+            <strong>Outcome:</strong>
+            This work demonstrated that cortical populations labeled with cell-type-specific AAVs exhibit distinct
+            activity profiles, suggesting that the previously described neuronal subtypes in layer 2/3 represent
+            transcriptionally and functionally distinct populations.
+          </p>
+          <a href="https://www.cell.com/neuron/fulltext/S0896-6273(23)00626-8" target="_blank">Relevant publication
+            here</a> <br>
+          <a href="https://github.com/sean-otoole/2p_neural_activity_otoole_2023" target="_blank">Relevant github
+            repository</a>
+          <br><br>
           </p>
           <div class="tags">
             <span class="tag">Time series analysis</span>
@@ -685,16 +727,35 @@
         </div>
 
         <div class="content">
-          <p>Here, I characterize cell-type specific AAVs that my collaborators and I designed and generated in the lab.
-            These AAVs label functionally specific populations in the Layer 2/3 visual cortex. I validated their
-            specificity using bulk RNA sequencing and histology.<br><br>
-            <a href="https://www.cell.com/neuron/fulltext/S0896-6273(23)00626-8" target="_blank">Relevant publication
-              here</a> <br>
-            <a href="https://github.com/sean-otoole/bulk_RNA_seq_otoole_2023" target="_blank">Bulk RNA sequencing github
-              repository</a><br>
-            <a href="https://github.com/sean-otoole/aav_histology_otoole_2023" target="_blank">Histology github
-              repository</a>
-            <br><br>
+          <br>
+          <p>
+            <strong>Question:</strong>
+            We developed cell-type-specific AAVs based on biomarkers derived from single-cell RNA sequencing datasets.
+            However, it was necessary to validate their specificity to ensure they were appropriate for functional
+            validation of transcriptionally defined cell types. In this project, I collected and analyzed bulk RNA
+            sequencing and histological datasets to test the specificity of the vectors we had designed, generated, and
+            injected.
+          </p>
+
+          <p>
+            <strong>Method:</strong>
+            To test vector specificity, I examined the differential expression patterns in R using FACS-derived bulk RNA
+            sequencing datasets from animals infected with the cell-type-specific AAVs. Additionally, I analyzed the
+            histological expression patterns of these AAVs using an image analysis pipeline I constructed in ImageJ and
+            Python.
+          </p>
+          <p>
+            <strong>Outcome:</strong>
+            This work demonstrated that the AAVs successfully labeled distinct populations and were specific enough to
+            investigate their functional specificity.
+          </p>
+          <a href="https://www.cell.com/neuron/fulltext/S0896-6273(23)00626-8" target="_blank">Relevant publication
+            here</a> <br>
+          <a href="https://github.com/sean-otoole/bulk_RNA_seq_otoole_2023" target="_blank">Bulk RNA sequencing github
+            repository</a><br>
+          <a href="https://github.com/sean-otoole/aav_histology_otoole_2023" target="_blank">Histology github
+            repository</a>
+          <br><br>
           </p>
           <div class="tags">
             <span class="tag">Python</span>
@@ -736,17 +797,39 @@
         </div>
 
         <div class="content">
-          <p>Neoadjuvant chemoradiotherapy can be beneficial for patients diagnosed with rectal cancer. However, only
-            about 30% of these patients achieve a pathological complete response, meaning that only a minority
-            experience significant benefits from what is often a physically demanding treatment. In this ongoing
-            project, I am utilizing artificial neural networks to predict the outcomes of chemoradiotherapy in rectal
-            cancer patients using RNA sequencing and microarray data sets obtained from biopsies taken before treatment.
-            <strong>Please note that this project is ongoing and more information will be provided after it is
-              completed.</strong><br><br>
-            Repository to be added later <br>
-            Report to be added later<br>
-            <br><br>
+          <br>
+          <p>
+            <strong>Question:</strong>
+            Neoadjuvant chemoradiotherapy in rectal cancer can result in a pathological complete response, where little
+            to no tumor remains after treatment. While effective for some, this treatment is often challenging,
+            uncomfortable, and only benefits a minority of patients (10–30%). Clinicians need better tools to guide
+            patients in deciding whether to undergo chemoradiotherapy. To address this, I am developing neural network
+            models using RNA sequencing and microarray datasets.
           </p>
+
+          <p>
+            <strong>Method:</strong>
+            My approach integrates differential expression analysis, genetic algorithms, data augmentation, batch
+            normalization, and deep learning. A major challenge is the relatively small dataset, consisting of several
+            hundred samples derived from various labs.
+          </p>
+
+          <p>
+            <strong>Outcome:</strong>
+            As this project is not complete, there is no clear outcome, however, the ultimate goal is to create a
+            machine learning model that accurately predicts how individual patients will respond to neoadjuvant therapy,
+            enabling more personalized treatment decisions.
+          </p>
+
+          <p>
+            <strong>Note: This project is in progress, and more information will be provided once it is completed.</strong> 
+            <br>
+            <br>
+            Repository: To be added later
+            <br>
+            Report: To be added later
+          </p>
+          <br>
           <div class="tags">
             <span class="tag">Neural networks</span>
             <span class="tag">Tensor flow</span>
@@ -756,7 +839,6 @@
             <span class="tag">Differential expression testing</span>
           </div>
         </div>
-
       </section>
       <footer class="modal-card-foot">
         <button class="button is-success">Close</button>
@@ -779,7 +861,8 @@
         </div>
 
         <div class="content">
-          <p>In this ongoing personal project, I am leveraging publicly available single-cell datasets and foundation
+          <br>
+          <p><strong>Summary: </strong>In this ongoing personal project, I am leveraging publicly available single-cell datasets and foundation
             models to develop strategies for treating Parkinson's disease. The project is based on the principle that a
             significant amount of biological research can be conducted computationally before entering the lab. I will
             share more details as the project progresses. Feel free to subscribe to my newsletter or follow my GitHub
@@ -787,7 +870,7 @@
             <a href="https://www.linkedin.com/newsletters/7270513081846267905/" target="_blank">Check out the
               newsletter</a> <br>
             <a href="https://github.com/sean-otoole/HODD" target="_blank">Relevant github repository</a><br>
-            <br><br>
+            <br>
           </p>
           <div class="tags">
             <span class="tag">Foundation models</span>
